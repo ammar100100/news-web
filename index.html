@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="language-toggle">
+      <button id="language-en" class="active">English</button>
+      <button id="language-ar">العربية</button>
+    </div>
+    <div class="theme-toggle">
+      <input type="checkbox" id="theme-toggle"> change theme
+      <label for="theme-toggle">
+        <div class="toggle-icon">
+          <span class="sun"></span>
+          <span class="moon"></span>
+        </div>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 id="title">News Categories</h1>
+      <select id="category-selector">
+        <option value="general">🌍 General</option>
+        <option value="business">💼 Business</option>
+        <option value="technology">💻 Technology</option>
+        <option value="sports">⚽ Sports</option>
+        <option value="health">🩺 Health</option>
+        <option value="palestine">🇵🇸 Palestine</option>
+      </select>
+      <div id="news-container" class="news-container"></div>
+    </div>
+  </main>
+
+
+  <script src="script.js"></script>
+  <footer>
+    <p> © Ammar | <a href="https://www.facebook.com/profile.php?id=100079106349125">Facebook Page</a></p>
+</footer>
+</body>
+</html>
